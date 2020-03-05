@@ -1,0 +1,169 @@
+/*******************************/
+/* THIS PART IS FOR THE HEADER */
+/*******************************/
+
+.navbar{
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    background-color: #333;
+    top: 0px;
+}
+
+
+.navbar button {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    overflow: hidden;
+    background-color: #333;
+    /* width: 100% */
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.navbar button a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.navbar button a:hover {
+    background-color: #111;
+}
+
+.navbar li h1
+{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+    position: absolute;
+    left: 46.5%;
+    font-size:2vw;
+}
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+/*****************************/
+/* THIS PART IS FOR THE BODY */
+/*****************************/
+
+.photo
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    overflow: hidden;
+}
+
+.photo img 
+{
+    width: 100%;
+    max-width: 500px;
+    border: #FFF 3px solid;
+}
+
+#controls
+{
+    /* width: 100%; */
+    background:  #333;
+}
+
+button
+{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background:  #333;
+    border: 0px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background: #111;
+    cursor: pointer;
+
+}
+
+button a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#next
+{
+    width: 33%;
+    float: right;
+}
+#prev
+{
+    width: 33%;
+    float: left;
+}
+
+/*******************************/
+/* THIS PART IS FOR THE FOOTER */
+/*******************************/
+
+.footer{
+    width: 100%;
+    margin-top: 100px;
+    background: #333;
+    overflow: hidden;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    overflow: hidden;
+    background-color: #333;
+    width: 20%
+}
+
+.footer li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer li a:hover {
+    background-color: #111;
+}
+
+.footer p
+{
+    margin: 5px;
+}
